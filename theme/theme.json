@@ -1,0 +1,126 @@
+{
+  "prospect": {
+    "name": "August AI",
+    "short": "August",
+    "domain": "meetaugust.ai"
+  },
+  "title": "Hog Saga: The August Quest",
+  "tagline": "Made for August AI by PostHog",
+  "palette": {
+    "primary": "#206E55",
+    "secondary": "#141515",
+    "accent": "#E5EEF2"
+  },
+  "products": [
+    "product_analytics",
+    "experiments",
+    "session_replay",
+    "surveys",
+    "error_tracking"
+  ],
+  "music": {
+    "mood": "warm, hopeful, gentle adventure, calm optimism",
+    "bpm": 120
+  },
+  "text": {
+    "win": "The Guesswork Golem falls. Every answer measured, every new model tested, and users keep coming back.",
+    "lose": "The guesswork won this round. Rest at the inn, drink some water, and try again.",
+    "credits": "Made for the August AI team by PostHog"
+  },
+  "game": {
+    "difficulty": "normal",
+    "intro": "Questions pour into August day and night. But which answers helped, and who never came back?",
+    "town": {
+      "name": "August HQ",
+      "inn_line": "Rest up and hydrate. Your health companion insists."
+    },
+    "regions": [
+      {
+        "name": "First Chat Meadow",
+        "blurb": "Where every user starts with one question."
+      },
+      {
+        "name": "Lab Report Woods",
+        "blurb": "Dense with numbers. Somewhere a reply went wrong."
+      },
+      {
+        "name": "Retention Dunes",
+        "blurb": "Dry and quiet. Where users stop coming back."
+      }
+    ],
+    "party": [
+      {
+        "name": "Dash",
+        "role": "Data Analyst",
+        "sprite_prompt": "a data analyst with round glasses and a green sweater holding a tablet"
+      },
+      {
+        "name": "Remy",
+        "role": "Support Lead",
+        "sprite_prompt": "a cheerful support lead with a headset and a light blue jacket"
+      }
+    ],
+    "npcs": [
+      {
+        "name": "Night Owl",
+        "line": "I asked August about my lab report at 2am and it helped! Does anyone at HQ know that?",
+        "sprite_prompt": "a sleepy person in pajamas holding a glowing phone"
+      },
+      {
+        "name": "Voice Noter",
+        "line": "I send voice notes in Hindi. Does it work as well as English? Asking for my mum.",
+        "sprite_prompt": "a smiling person holding a phone up to their mouth, wearing a yellow kurta"
+      },
+      {
+        "name": "Model Tinkerer",
+        "line": "We shipped a new model on Monday. Is it better? My gut says yes. My gut is not a dashboard.",
+        "sprite_prompt": "an engineer with a messy bun and a green hoodie covered in sticky notes"
+      }
+    ],
+    "enemies": [
+      {
+        "name": "Silent Churn",
+        "pain": "They asked once, then never came back.",
+        "archetype": "swarm",
+        "sprite_prompt": "a tiny pale green ghost bug fading at the edges"
+      },
+      {
+        "name": "Vibe Check",
+        "pain": "New model shipped. Better? Nobody knows.",
+        "archetype": "fast",
+        "sprite_prompt": "a quick little dark green beetle with a question mark on its back"
+      },
+      {
+        "name": "Funnel Leak",
+        "pain": "Signups that never ask a first question.",
+        "archetype": "brute",
+        "sprite_prompt": "a big round bug shaped like a dripping funnel"
+      },
+      {
+        "name": "Log Swamp",
+        "pain": "No analytics set up, just raw logs.",
+        "archetype": "tank",
+        "sprite_prompt": "a heavy grey slug covered in scrolling paper printouts"
+      },
+      {
+        "name": "Babel Moth",
+        "pain": "Voice notes in many languages, no view.",
+        "archetype": "caster",
+        "sprite_prompt": "a large moth with wings patterned like speech bubbles"
+      }
+    ],
+    "boss": {
+      "name": "Guesswork Golem",
+      "taunt": "You'll never know which answers helped!",
+      "phase2": "More features! Shipped on vibes alone!",
+      "sprite_prompt": "a giant stone golem with a blank face and a fog cloud around its head, green moss on its shoulders"
+    },
+    "product_lines": {
+      "product_analytics": "See who returns after the first chat",
+      "experiments": "Test the new model on half of users",
+      "session_replay": "Watch where new users get stuck",
+      "surveys": "Ask: did that answer actually help?",
+      "error_tracking": "Catch failed replies before users do"
+    }
+  }
+}
